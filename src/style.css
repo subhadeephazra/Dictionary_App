@@ -1,0 +1,31 @@
+*{
+    padding: 0;margin: 0;
+}
+
+/* NAVBAR STYLING */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44,45,45);
+    height: 8vh;
+}
+.Link{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin-right: 0.5rem;
+}
+
+/* SearchDiv */
+.SearchDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    /* align-items: center; */
+}
+input{
+    width: 25vw;
+    margin-right: .5rem;
+    height: 1rem;
+}
